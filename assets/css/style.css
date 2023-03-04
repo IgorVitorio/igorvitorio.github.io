@@ -978,9 +978,9 @@ width: 60px;
 # Counter
 --------------------------------------------------------------*/
 .counter-box {
-  color: #f9b302;
+  color: #ffffff;
   text-align: center;
-  text-shadow: 1px 1px 10px red;
+  text-shadow: 1px 1px 10px rgb(195, 195, 21);
 }
 
 @media (min-width: 577px) {
