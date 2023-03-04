@@ -507,7 +507,7 @@ width: 60px;
 }
 
 #header.header-scrolled {
-  background: rgb(52, 52, 52);
+  background: rgba(52, 52, 52, 0.792);
   padding: 0px 0;
 }
 
