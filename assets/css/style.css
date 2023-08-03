@@ -877,30 +877,30 @@ width: 60px;
 # Services
 --------------------------------------------------------------*/
 .services-mf{
-  background-image: linear-gradient(#767676,#f6d8b9);
+  background-image: linear-gradient(#665E53,#f6d8b9af);
 }
-.col-sm-12{
-  background-color: #c9c2b0;
 
-}
-.col-md-4{
-  background-color: #c9c2b0;
-
-}
 .service-box {
-  background-color: #95928b6b;
+  background-color: #cbc1aa6b;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
   border: 1px solid black;
+  height: 540px;
+}
+.title-box h3{ 
+  color: white;
 }
 
+.subtitle-a{
+  color: rgb(200, 199, 194);
+}
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: #fff;
-  background-color: #4f4f50;
-  box-shadow: 0 0 0 10px #cde1f8;
+  color: #ffffff5b;
+  background-color: #4f4f5063;
+  box-shadow: 0 0 0 10px #cde1f83d;
 }
 
 .service-box .service-ico {
@@ -943,7 +943,11 @@ width: 60px;
   text-align: center;
   text-shadow: 1px 1px 10px rgb(195, 195, 21);
 }
-
+.section-counter{
+  background-color: #505050ed;
+  height: 200px;
+  border: 1px solid rgba(252, 249, 151, 0.313);
+}
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
@@ -951,13 +955,12 @@ width: 60px;
 }
 
 .counter-ico {
-  margin-bottom: 1rem;
+  margin-top: 1.1rem;
 }
 
 .counter-ico .ico-circle {
   height: 60px;
   width: 60px;
-  line-height: 1.5;
   box-shadow: 0 0 0 10px #070707;
 }
 
@@ -985,6 +988,7 @@ width: 60px;
   display: block;
   overflow: hidden;
   border-radius: 15px;
+  height: 200px;
 }
 
 .work-img img {
@@ -1022,22 +1026,34 @@ width: 60px;
 
 .w-title {
   font-size: 1.2rem;
+  text-align: left;
 }
 
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-mf{
-  background-image: linear-gradient(#f6d8b9, #767676);
+  background-image: linear-gradient(#F5E0CC, #767676);
 }
 .portfolio-details {
   padding-top: 40px;
 }
-
+#work .subtitle-a{
+  color: #474848;
+}
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
+.work-content{
+  height: 140px;
+}
 
+.work-content .col-sm-4{
+  width: 100px;
+}
+.work-content .w-title{
+  width: 280px;
+}
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -1099,6 +1115,9 @@ width: 60px;
   padding: 4rem 0 0 0;
 }
 
+.title-box-2{
+  text-align: center;
+}
 .contact-mf {
   margin-top: 4rem;
 }
@@ -1129,20 +1148,20 @@ width: 60px;
     transform: rotate(360deg);
   }
 }
-@keyframes pulse{
+@keyframes pulseWhatsapp{
     0%{
       background-color: #c0c0c045;
     }           
 
     50%{
-      background-color: #b3b3e28b;
+      background-color: #6aea808b;
     }
     100%{
       background-color: #e2e2e445;
     }
 }
 
-@keyframes pulse2{
+@keyframes pulseInstagram{
   0%{
     background-color: #c0c0c045;
   }           
@@ -1153,6 +1172,19 @@ width: 60px;
   100%{
     background-color: #e2e2e445;
   }
+  }
+  
+  @keyframes pulseLinkedIn{ 
+    0%{
+      background-color: #c0c0c045;
+    }           
+  
+    50%{
+      background-color: #49d7f481;
+    }
+    100%{
+      background-color: #e2e2e445;
+    }
 }
 /*-------------------------------------------------------------
 
