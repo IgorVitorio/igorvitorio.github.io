@@ -172,9 +172,9 @@ width: 52px;
 }
 
 .line-mf {
-  width: 100px;
+  width: 1050px;
   height: 5px;
-  background-color: #c2c2c2;
+  background-color: #ffffff10;
   margin: 0 auto;
 }
 
@@ -1081,15 +1081,6 @@ background-color: #00ff5e;
 .services-mf{
   background-color: #adb5bd;
 }
-.col-lg-9{
-  border-left: 1px solid gray;
-}
-
-@media (max-width: 800px){
-  .col-lg-9{
-    border-left: 0;
-  }
-}
 
 .service-box {
   background-color: #cbc1aa6b;
@@ -1161,7 +1152,8 @@ background-color: #00ff5e;
 }
 .section-counter{
   border-top: 1px solid rgba(117, 116, 116, 0.461);
-  padding-top: 20px;
+  margin-top: 150px;
+  padding-top: 10px;
 }
 
 @media (max-width: 700px){
@@ -1403,9 +1395,9 @@ background-color: #00ff5e;
 }
 
 #contact{
-  padding-top: 50px;
-  padding-bottom: 90px;
-  background-color: #8a8989;
+  padding-top: 120px;
+  padding-bottom: 180px;
+  background-color: #8d99aa;
 }
 
 .contato{
@@ -1419,10 +1411,9 @@ background-color: #00ff5e;
 
 .title-box-2{
   text-align: center;
+  margin-bottom: 130px;
 }
-.contact-mf {
-  margin-top: 4rem;
-}
+
 
 @media (min-width: 767px) {
   .contact-mf .box-pl2 {
